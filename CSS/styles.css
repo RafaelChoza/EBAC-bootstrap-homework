@@ -27,6 +27,10 @@ main {
     box-sizing: border-box;
 }
 
+h1 {
+    background-color: yellow;
+}
+
 .accordion {
     position: relative;
     left: 20%;
