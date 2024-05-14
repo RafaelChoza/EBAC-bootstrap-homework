@@ -1,0 +1,120 @@
+header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+a:hover {
+    transform: scale(1.02);
+    background-color: rgb(185, 185, 255);
+}
+
+.logo {
+    width: 6%;
+    position: relative;
+}
+
+main {
+    border: 50px solid rgb(0, 2, 141);
+    box-sizing: border-box;
+}
+
+.accordion {
+    position: relative;
+    left: 20%;
+}
+
+.accordion-button {
+    background-color: rgb(212, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.accordion-button:hover {
+    transform: scale(1.02);
+    background-color: rgb(116, 1, 1);
+}
+
+.carousel {
+    position: relative;
+    left: 20%;
+}
+
+#accordionExample {
+    width: 50%;
+}
+
+.accordion-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#carouselExample {
+    width: 50%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.btn {
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
+
+@media screen and (max-width:27rem) {
+    .accordion-body {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    h1, h2 {
+        font-size: 1.3rem;
+    }
+
+    #accordionExample {
+        width: 100%;
+    }
+
+    #carouselExample {
+        width: 100%;
+    }
+
+    .accordion {
+        position: relative;
+        left: 0%;
+    }
+
+    .carousel {
+        position: relative;
+        left: 0%;
+    }
+
+    .accordion-button {
+        font-size: .7rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+}
